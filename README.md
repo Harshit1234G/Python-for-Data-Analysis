@@ -22,7 +22,8 @@ I'm working my way through 'Python for Data Analysis' by Wes McKinney. It's a gr
 
 - **Chapter 4 - NumPy Basics: Arrays and Vectorized Computation:**
   - From this chapter the proper Data Science part has started, I got to know that NumPy is written in C, C++ and FORTRAN. This makes NumPy extremely fast (way faster than native Python code).
-  - The NumPy `ndarray` object is a fast n-dimensional array object. Creating ndarray, its attributes (like shape, dtype, ndim, etc), mathematical operations on ndarray and various other NumPy functions on ndarray.
+  - The NumPy `ndarray` object is a fast n-dimensional array object.
+  - Creating ndarray, its attributes (like shape, dtype, ndim, etc), mathematical operations on ndarray and various other NumPy functions on ndarray.
   - There are various datatypes(dtypes) in NumPy, different sized integers, floats, complex numbers, boolean, string_, etc.
   - How to change and check the dtype.
   - Basic indexing, slicing, fancy indexing, and boolean indexing.
@@ -88,7 +89,7 @@ I'm working my way through 'Python for Data Analysis' by Wes McKinney. It's a gr
 
 ---
 
-- **Chapter 8: - Data Wrangling: Join, Combine, and Resahpe:**
+- **Chapter 8 - Data Wrangling: Join, Combine, and Resahpe:**
   - pandas MultiIndex object (`pd.MultiIndex`) to implement hierarchical indexing.
   - stacking, unstacking and resetting index of MultiIndex.
   - Swaping level of MultiIndex and Sorting by different levels of index.
@@ -98,11 +99,11 @@ I'm working my way through 'Python for Data Analysis' by Wes McKinney. It's a gr
 
 ---
 
-- **Chapter 9: - Plotting and Visualization:** Data Visualization using `matplolib.pyplot`, `seaborn` and `pandas` itself. Different kind of plots, subplots, saving plots to secondary memory, etc.
+- **Chapter 9 - Plotting and Visualization:** Data Visualization using `matplolib.pyplot`, `seaborn` and `pandas` itself. Different kind of plots, subplots, saving plots to secondary memory, etc.
 
 ---
 
-- **Chapter 10: Data Aggregation and Group Operations:**
+- **Chapter 10 - Data Aggregation and Group Operations:**
   - Using split-apply-combine technique to group and aggregate data using `df.groupby`.
   - This chapter helped me to understand various ways of using groupby and aggregation functions.
   - Also given some real life examples for grouping and aggregation.
@@ -137,9 +138,11 @@ I'm working my way through 'Python for Data Analysis' by Wes McKinney. It's a gr
 
 ---
 
-- **Appendix A: Advanced Numpy:**
+- **Appendix A - Advanced Numpy:**
   - ndarray object internals.
   - C Versus FORTRAN order.
   - Some other advanced features of NumPy.
   - Numba
   - Performance tips.
+
+---
